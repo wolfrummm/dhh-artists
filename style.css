@@ -6,7 +6,7 @@
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 90px;
-    
+    display: inline-block;
 }
 
 body {
@@ -25,9 +25,122 @@ h1 {
 .image {
     border-radius: 50%;
     border-color: aqua;
-    /* padding: 30px; */
-    padding: 20px;
+    padding: 30px;
+    padding: 5px;
+    margin: 5px;
 }
+
+.box {
+    background-color: rgb(84, 54, 106);
+    /* padding: 40px; */
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 40px;
+    border: 90px rgb(0, 0, 0);
+    border-radius: 50px;
+    height: 110px;
+    box-sizing: border-box;
+}
+
+
+
+.image:hover{
+    background-color: rgb(0, 0, 0);
+    
+}
+
+.list {
+    display: inline-block;
+    background-color: rebeccapurple;
+    margin-left: 16px;
+    margin-right: px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 20px;
+}
+
+
+
+.down {
+    padding: 80px;
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-size: 50px;
+}
+
+.big {
+    font-weight: bold;
+}
+
+p{
+    padding: 2px;
+    font-size: 25px;
+}
+
+.btn{
+    background: #00b6d1;
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn:hover{
+    background-color: #007f93;
+}
+
+div span img{
+    width: 84px;
+    margin: 0,23px;
+}
+
+.symbol {
+    width:55px;
+}
+
+.download span{
+    font-size: 20px;
+}
+
+#small{
+    font-size: 12px;
+}   
+
+.download {
+    display: flex;
+    font-family: sans-serif;
+    align-items: center;    
+    gap: 10px;
+    margin-left: 170px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.items {
+    text-align: center;
+    padding: 50px;
+    background-color: #F9F9F9;
+}
+
+.nbtn{
+    background-color: #00b6d1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
 
 .box {
     background-color: rgb(84, 54, 106);
